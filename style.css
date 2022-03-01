@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+
+h2{
+   position: absolute;
+    top:0;
+    left:0;
+    width: 52%;
+    height: 100%;
+    background-color: #fff;
+    font-size: 15vw;
+    font-family: 'Redressed', cursive;
+    mix-blend-mode: screen;
+}
+span{
+    color:#fff;
+}
+
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Redressed', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Supermercado One', cursive;
+*/
+main{
+    width: 100%;
+    height: 570px;
+    background-color: lightgray;
+    position: relative;
+    padding: 30px;
+}
+h3{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px
+}
+p{
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(hart.png);
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
